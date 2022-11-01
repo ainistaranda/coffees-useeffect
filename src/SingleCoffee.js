@@ -23,7 +23,7 @@ export default function SingleCoffee({entireObject}) {
         src={entireObject.image}
         alt="pictures of each coffee type"
       ></img>
-      <div>
+      <div className="coffee-container">
         <h3>{entireObject.title}</h3>
         <span>Price: {entireObject.price}</span>
         <p>{entireObject.description}</p>
